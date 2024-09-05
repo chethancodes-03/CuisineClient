@@ -1,0 +1,44 @@
+.diet-plan-container {
+    background-color: #ffe071;
+    color: #422801;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.diet-plan-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    width: 50%;    
+}
+
+.input-group .form-control {
+    margin-right: 10px;
+    width: 50%;
+}
+
+.input-group .btn {
+    background-color: #422801;
+    border-color: #422801;
+}
+
+.input-group .btn:disabled {
+    background-color: #6e4e01;
+    border-color: #6e4e01;
+}
+
+.nutrition-output pre {
+    background-color: #ffe071;
+    padding: 10px;
+    border-radius: 4px;
+    white-space: pre-wrap; /* Makes the text wrap within the container */
+    font-family: monospace;
+    color: #422801;
+}

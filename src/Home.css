@@ -1,0 +1,130 @@
+.home-container {
+    display: flex;
+    flex-direction: column; /* Adjusted to column layout */
+    justify-content: left; /* Centered vertically */
+    align-items: left; /* Centered horizontally */
+    height: auto; /* Adjust height as needed */
+    background-color: #ffe071;
+}
+
+.left-side {
+    text-align: left;
+    left: 5%; /* Centered text */
+}
+
+.company-name {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5em; /* Reduced font size */
+    font-weight: bold;
+    color: #422801;
+    margin-left: 180px;
+    margin-top: -33px;
+    margin-bottom: 30px;
+}
+.home-image{
+    margin-left: 143px;
+    margin-top: 29px;
+    width: 30px;
+    height: 30px;
+}
+
+.tagline {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 7em;
+    color: #422801;
+    font-weight: bold;
+    margin-top: 45px; /* Reduced space between lines */
+    line-height:  1; /* Adjust line height to reduce space between lines */
+    margin-left: 140px;
+}
+
+
+.right-side {
+    margin-bottom: 25%;
+    margin-left: 800px; 
+    margin-right: 110px;
+    
+}
+
+.big-image {
+    max-width: 380%; /* Adjust image size */
+    border-radius: 8px; /* Add rounded corners if needed */
+    margin-bottom: 46px;
+    margin-top: -470px;
+    margin-left: -180px;
+    height: 1px;
+    width: 5px;
+}
+
+.bottom-middle {
+    margin-top: 20px;
+    display: block;
+    filter: drop-shadow(0 0 10px #fffdef); /* Adjusted space between top and button */
+}
+
+.generate-button {
+    background-color: #422801;
+    color: #ffe071;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px; /* Add rounded corners if needed */
+    cursor: pointer;
+    margin-left: 140px;
+    
+}
+
+.generate-button:hover {
+    background-color: #ffe071;
+    color: #422801;
+    border: 2px solid #422801;
+}
+
+.right-side img.big-image {
+    width: 1000%;
+    max-width: 700px;
+    height: auto;
+}
+
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #422801;
+    color: #ffe071;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-color: #ffe071;
+}
+
+.nav-company-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #ffe071;
+}
+.user-icon{
+    width: 25px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}

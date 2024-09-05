@@ -1,0 +1,96 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slide-left {
+    transform: translateX(0);
+}
+
+.slide-right {
+    transform: translateX(-100%);
+}
+
+.custom-background {
+  background-color: transparent ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px; /* Space between image and form */
+}
+
+.custom-image {
+  max-width: 400%; /* Adjust based on your preference */
+  max-height: 400%; /* Ensures the image scales proportionally */
+  height: auto;
+  border-radius: 8px;
+}
+.custom-container {
+  border: 2px solid #422801;
+  position: relative;
+  right: 5%;
+}
+
+.custom-header {
+  color: #422801;
+}
+
+.custom-input {
+  border: 1px solid #422801;
+}
+
+.custom-button {
+  background-color: #422801;
+  color: white;
+  border: none;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1rem;
+  padding: 8px;
+}
+
+.custom-button:hover {
+  background-color: #ffe071;
+  color: #422801;
+  border: 1px solid #422801;
+}
+
+.custom-link-button {
+  background-color: #ffe071;
+  color: #422801;
+  border: 1px solid #422801;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1rem;
+  padding: 2px;
+}
+
+.custom-link-button:hover {
+  background-color: #462a01;
+  color: #ffe071;
+}
+
+.custom-toggle-button {
+  background-color: #422801;
+  color: #ffe071;
+  border: 1px solid #422801;
+}
+
+.custom-toggle-button:hover {
+  background-color: #ffe071;
+  color: #422801;
+  border: 1px solid #422801;
+}
